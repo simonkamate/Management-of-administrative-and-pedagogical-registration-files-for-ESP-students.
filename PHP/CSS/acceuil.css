@@ -1,0 +1,136 @@
+
+        *,::before,::after{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+    }
+    .style1{
+        height:100vh;
+        width: 100%;
+        background: linear-gradient(55deg,rgba(0, 0, 250, 0.7),rgb(156, 192, 241),rgba(255, 255, 255, 0.8),rgb(156, 192, 241),rgba(0, 0, 250, 0.7));
+        background-size: 300% 300% ;
+        animation: color 12s ease-in-out infinite;
+    }
+
+
+
+    @keyframes color{
+        0%{
+            background-position: 0% 50%;
+        }
+        50%{
+            background-position: 100%  50%;
+        }
+        100%{
+            background-position: 0% 50%;
+        }
+    }
+
+    body{
+        font-family: Arial, Helvetica, sans-serif;
+
+    }
+    .school{
+        position: absolute;
+        top:6%;
+        left: 5%;
+    }
+    .s1{
+        width: 200px;
+        font-size: 20px;
+        height: 3px;
+        background:transparent;
+        font-family: Arial, Helvetica, sans-serif;
+        color: darkblue;
+        border-radius: 5px;
+
+    }
+    .s2{
+        width: 250px;
+        font-size: 20px;
+        background:transparent;
+        font-family:  Arial, Helvetica, sans-serif;
+        color: darkblue;
+        border-radius: 5px;
+        position: relative;
+        top: 20px;
+        left: 15px;
+    }
+    .entete_1{
+        position: absolute;
+        top: 30%;
+        left: 5%;
+    }
+    h1{
+        text-transform: uppercase;
+        font-size: 70px;
+        width: 1000px;
+        color:darkblue;
+        font-family:Arial, Helvetica, sans-serif ;
+    }
+    h1 span{
+        position: relative;
+    }
+   
+    .bouton{
+        border: 2px solid rgb(7, 6, 74);
+        background: transparent;
+        font-size: 15px;
+        padding: 20px;
+        color: rgb(7, 6, 74);
+        cursor: pointer;
+        margin: 50px;
+        border-radius: 10px;
+        
+      
+    }
+    .bouton:nth-child(1){
+        margin: 5px;
+    }
+    
+    .bouton:hover{
+        transition: all 0.3s ease-in-out;
+        background-color: rgb(7, 6, 74);
+        color: azure;
+        font-size: 17px;
+    }
+
+    .logo1{
+        position: absolute;
+        right:5%;
+        top:4%;
+        width: 160px;
+        height: 60px;
+        cursor: pointer;
+        border-radius: 5%;
+        
+    }
+    .RS_1{
+        list-style-type: none;
+        position: absolute;
+        right: 3.3%;
+        top:50%;
+        transform: translate(-50%);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .bulle{
+        width: 40px;
+        height:40px;
+        border-radius: 50%;
+        border: 1px solid darkblue;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 10px 0;
+        background: aliceblue;
+       
+        cursor: pointer;
+        position: relative;
+    }
+    .reseau{
+        width: 20px;
+        height: 20px;
+    }

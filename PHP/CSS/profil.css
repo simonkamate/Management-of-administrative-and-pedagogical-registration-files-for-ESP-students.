@@ -1,0 +1,198 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(55deg,rgba(0, 0, 250, 0.3),rgb(156, 192, 241),rgba(255, 255, 255, 0.8),rgb(156, 192, 241),rgba(0, 0, 250, 0.3));
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+  
+  .school{
+    position: absolute;
+    top:6%;
+    left: 5%;
+  }
+  .s1{
+    width: 200px;
+    font-size: 20px;
+    height: 3px;
+    background:transparent;
+    font-family: Arial, Helvetica, sans-serif;
+    color: darkblue;
+    border-radius: 5px;
+  
+  }
+  .s2{
+    width: 250px;
+    font-size: 20px;
+    background:transparent;
+    font-family:  Arial, Helvetica, sans-serif;
+    color: darkblue;
+    border-radius: 5px;
+    position: relative;
+    top: 20px;
+    left: 15px;
+  }
+  
+  .RS_1{
+    list-style-type: none;
+    position: absolute;
+    right: 3.3%;
+    top:50%;
+    transform: translate(-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .bulle{
+    width: 40px;
+    height:40px;
+    border-radius: 50%;
+    border: 1px solid darkblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+   background-color: aliceblue;
+    cursor: pointer;
+    position: relative;
+  }
+  
+  .reseau{
+    width: 20px;
+    height: 20px;
+  }
+  
+  .logo1{
+    position: absolute;
+    right:5%;
+    top:4%;
+    width: 160px;
+    height: 60px;
+    cursor: pointer;
+    border-radius: 5%;
+   
+  }
+  
+  main{
+    width: 750px;
+    padding: 2rem 1rem;
+    margin: 70px ;
+    background-color: aliceblue;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 20px 35px rgba(0, 0, 0, 0.25);
+  }
+
+
+header {
+    height: 150px;
+    padding-top: 10px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    color: rgba(0, 0, 0, 0.25);
+    background-color:rgba(0, 0, 250, 0.3);
+}
+
+.photo {
+    margin-left: 7%;
+    border-radius: 50%;
+    width: 130px;
+    height: 130px;
+    overflow: hidden;
+    background:rgba(100, 148, 237, 0.5) ;
+}
+.des{
+    margin-left: 25%;
+    margin-top: -10%;
+}   
+h3{
+    color: darkblue;
+    font-weight: bold;
+    letter-spacing: .2rem;
+    font-size: 30px;
+   
+}
+.post{
+    color: darkblue;
+    font-weight: bold;
+    letter-spacing: .2rem;
+    margin-bottom: 20px;
+    font-size: 25px;
+    box-shadow:0 2px 2px 2px  rgba(100, 148, 237, 0.5) ;
+    
+}
+
+ h4{
+  
+    color: aliceblue;
+    width: 50%;
+    letter-spacing: .2rem;
+    font-size: 18px;
+    box-shadow:0 2px 5px  rgba(0, 0, 0, 0.5) ;
+    text-align: left;
+    background: rgb(86, 131, 214);
+}
+hr.light{
+ border-top: 5px solid cornflowerblue;
+ width: 90%;
+ margin-top: .8rem;
+ margin-bottom: 1rem;
+ animation: width 7s  infinite;
+}
+
+@keyframes width{
+  0%{
+    width: 30%;
+  }
+  25%{
+    width: 60%;
+  }
+  75%{
+    width: 20%;
+  }
+  100%{
+    width: 60%;
+  }
+}
+
+.div{
+   
+    text-align: left;
+}
+
+button{
+    position: relative;
+    width: 30%;
+    top:10px;
+    height: 40px;
+    background: darkblue;
+    font-size: 16px;
+    color: aliceblue;
+    cursor: pointer;
+    border-radius: 30px;
+    border: none;
+    outline: none;
+    margin: 15px;
+}
+
+.section-left{
+ 
+  float: left;
+  width: 400px;
+}
+.section-right{
+  
+  float: right;
+  width: 400px;
+}

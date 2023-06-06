@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(55deg,rgba(0, 0, 250, 0.3),rgb(156, 192, 241),rgba(255, 255, 255, 0.8),rgb(156, 192, 241),rgba(0, 0, 250, 0.3));
+}
+
+.school{
+    position: absolute;
+    top:6%;
+    left: 5%;
+}
+.s1{
+    width: 200px;
+    font-size: 20px;
+    height: 3px;
+    background:transparent;
+    font-family: Arial, Helvetica, sans-serif;
+    color: darkblue;
+    border-radius: 5px;
+
+}
+.s2{
+    width: 250px;
+    font-size: 20px;
+    background:transparent;
+    font-family:  Arial, Helvetica, sans-serif;
+    color: darkblue;
+    border-radius: 5px;
+    position: relative;
+    top: 20px;
+    left: 15px;
+}
+
+.logo1{
+    position: absolute;
+    right:5%;
+    top:4%;
+    width: 160px;
+    height: 60px;
+    cursor: pointer;
+    border-radius: 5%;
+   
+}
+
+.cadre{
+    position: relative;
+    width: 400px;
+    height: 450px;
+    background:rgba(255, 255, 255, 0.25);
+    border-radius: 20px;
+    box-shadow: 0 0 50 px rgb(1, 1, 97);
+    padding: 40px;
+
+}
+.Inscription{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+
+}
+h2{
+    font-size: 27px;
+    color: darkblue;
+    text-align: center;
+    margin: 5px;
+}
+.div1{
+    position: relative;
+    margin: 20px 0;
+    border-bottom: 3px solid darkblue;
+}
+.div1 label{
+    position: absolute;
+    top: 25%;
+    left: 10px;
+    transform: translate(-18%);
+    font-size: 15px;
+    color: darkblue;
+    pointer-events: none;
+    transition: .5s;
+}
+
+.div1 input{
+    height: 40px;
+    font-size: 15px;
+    padding: 0 5px;
+    background:transparent;
+    border: none;
+    outline: none;
+}
+
+.div1 input:focus~label,
+.div1 input:valid~label{
+    top: -5px;
+}
+
+.button{
+    position: relative;
+    width: 100%;
+    height: 40px;
+    background: darkblue;
+    font-size: 16px;
+    color: aliceblue;
+    cursor: pointer;
+    border-radius: 30px;
+    padding: 10px;
+    margin: 15px;
+    outline: none;
+    border: none;
+}
+
+.button:nth-child(2){
+   
+    margin:70px;
+    top: 15px;
+    background-color: transparent;
+    color:rgb(139, 0, 60) ;
+    text-decoration: none;
+    left: -30%;
+}
+
+.RS_1{
+    list-style-type: none;
+    position: absolute;
+    right: 3.3%;
+    top:50%;
+    transform: translate(-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.bulle{
+    width: 40px;
+    height:40px;
+    border-radius: 50%;
+    border: 1px solid darkblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+   background-color: aliceblue;
+    cursor: pointer;
+    position: relative;
+}
+
+.reseau{
+    width: 20px;
+    height: 20px;
+}
+
